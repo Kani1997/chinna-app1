@@ -15,6 +15,7 @@
       <scope>test</scope>
     </dependency>
  </dependencies>
+  
   <build>
     <plugins>
       <plugin>        
@@ -22,14 +23,18 @@
         <artifactId>maven-war-plugin</artifactId>
         <version>3.3.1</version>
       </plugin>
+      <servers>
+  <server>
+    <id>sonarqube</id>
+    <username>admin</username>
+    <password>open</password>
+  </server>
+</servers>
+
       <plugin>
       <groupId>org.sonarsource.scanner.maven</groupId>
       <artifactId>sonar-maven-plugin</artifactId>
       <version>3.9.1.2184</version>
-      <configuration>
-        <sonarLogin>admin</sonarLogin>
-        <sonarPassword>open</sonarPassword>
-      </configuration>
     </plugin>
     </plugins>
     <finalName>hiring</finalName>
