@@ -26,6 +26,13 @@
       <groupId>org.sonarsource.scanner.maven</groupId>
       <artifactId>sonar-maven-plugin</artifactId>
       <version>3.9.1.2184</version>
+        <configuration>
+          <id>sonarqube</id>
+          <properties>
+            <sonar.url>http://localhost:9000/sonar</sonar.url>
+        <sonarLogin>admin</sonarLogin>
+        <sonarPassword>open</sonarPassword>
+      </configuration>
     </plugin>
     </plugins>
     <finalName>hiring</finalName>
