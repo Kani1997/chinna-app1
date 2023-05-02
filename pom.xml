@@ -27,7 +27,7 @@
       <artifactId>sonar-maven-plugin</artifactId>
       <version>3.9.1.2184</version>
       <configuration>
-        <sonarLogin>admin/sonarLogin>
+        <sonarLogin>admin</sonarLogin>
         <sonarPassword>open</sonarPassword>
       </configuration>
     </plugin>
