@@ -28,15 +28,6 @@
       <version>3.9.1.2184</version>
     </plugin>
     </plugins>
-    <settings>
-    <servers>
-  <server>
-    <id>sonarqube</id>
-    <username>admin</username>
-    <password>open</password>
-  </server>
-</servers>
-    </settings>
     <finalName>hiring</finalName>
   </build>
 </project>
