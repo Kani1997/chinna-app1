@@ -14,7 +14,12 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-  </dependencies>
+  <dependency>
+    <groupId>org.sonarsource.scanner.maven</groupId>
+    <artifactId>sonar-maven-plugin</artifactId>
+    <version>3.9.1.2184</version>
+</dependency>
+ </dependencies>
   <build>
     <plugins>
       <plugin>
@@ -24,10 +29,5 @@
       </plugin>
     </plugins>
     <finalName>hiring</finalName>
-      <dependency>
-    <groupId>org.sonarsource.scanner.maven</groupId>
-    <artifactId>sonar-maven-plugin</artifactId>
-    <version>3.9.1.2184</version>
-</dependency>
   </build>
 </project>
